@@ -3,15 +3,16 @@ Project to practice different topics in Django
 
 This project includes the following apps to be practiced:
 
-1. simple weather app
-2. registration (signup/login) app
-3. todo app
-4. sending emails app
-5. creating a comments app
-6. voting system app
-7. determine the face tilt using the OpenCV library app
-8. Google reCaptcha app
-9. YouTube video downloader app
-10. eCommerce app
-11. College management system app
-12. Words counter app
+1. geeks app (basic practice of models, views, forms, URLs, templates)
+2. simple weather app (the practice of external API integration, basic graphs, templates)
+3. registration (signup/login) app
+4. todo app
+5. sending emails app
+6. creating a comments app
+7. voting system app
+8. determine the face tilt using the OpenCV library app
+9. Google reCaptcha app
+10. YouTube video downloader app
+11. eCommerce app
+12. College management system app
+13. Words counter app
