@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to Code Geeks Lab</h1>
+    {% for data in content %}
+        <h3>{{data.id}}: {{data.title}}</h3>
+        <img src="{{data.img.url}}" width="100px">
+        <p><strong>Description: </strong>{{data.description}}</p>
+        <p><strong>Last Modified: </strong>{{data.last_modified}}</p>
+    {% endfor %}
+</body>
+</html>
