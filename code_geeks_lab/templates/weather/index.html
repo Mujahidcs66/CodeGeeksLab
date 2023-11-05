@@ -11,9 +11,18 @@
         <input type="text" placeholder="Enter city name here..." value="" name="city" >
         <input type="submit" value="Submit" >
     </form>
-    {% if data %}
-        <h2>Region: {{data.location.region}}</h2>
-    {% endif %}
+    <div style="color: red;">
+        {% if data %}
+            <h3>Location</h3>
+            <p><strong>Name:</strong> {{data.location.name}}</p>
+            <p><strong>Region:</strong> {{data.location.region}}</p>
+            <p><strong>Country:</strong> {{data.location.country}}</p>
+            <p><strong>Latitude:</strong> {{data.location.lat}}</p>
+            <p><strong>Longitude:</strong> {{data.location.lon}}</p>
+            <p><strong>TZ-ID:</strong> {{data.location.tz_id}}</p>
+            <p><strong>Date & Time:</strong> {{data.location.localtime}}</p>
+        {% endif %}
+    </div>
 
 </body>
 </html>
