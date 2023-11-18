@@ -28,4 +28,4 @@ def remove(request, item_id):
     item = Todo.objects.get(id=item_id)
     item.delete()
     messages.info(request, f'Item "{item.title}" removed successfully!!!')
-    return redirect('index')
+    return redirect('todo')
