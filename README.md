@@ -5,8 +5,8 @@ This project includes the following apps to be practiced:
 
 1. geeks app (basic practice of models, views, forms, URLs, templates)
 2. simple weather app (the practice of external API integration, basic graphs, templates)
-3. registration (signup/login) app
-4. todo app
+3. user registration (signup/login) app (practice of login, logout, register, email confirmation)
+4. todo app (the practice of creating, retrieving, and deleting a record)
 5. sending emails app
 6. creating a comments app
 7. voting system app
