@@ -32,7 +32,8 @@ INSTALLED_APPS = [
     'crispy_forms', # cispy_forms library for styling the forms in django
     'crispy_bootstrap4', # cispy_forms library for styling the forms in django
     'todo.apps.TodoConfig', # todo app for practice of create, retrieve, delete
-    'portfolio.apps.PortfolioConfig', # 
+    'portfolio.apps.PortfolioConfig', # portfolio app for basic practice of forms, models, views, urls
+    'polls.apps.PollsConfig', # polls app for practice of template urls, models, views, order_by, try catch, get_object_or_404, HttpResponseRedirect, reverse, admin.TabularInline, fieldsets, inlines
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
